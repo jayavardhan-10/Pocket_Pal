@@ -1,45 +1,58 @@
 # Pocket Pal
 
-This is a simple web-based Daily Expense Tracking System built using PHP and MySQL. It allows users to track and manage their daily expenses efficiently.
+Pocket Pal is a **PHP-based expense management system** designed to help users efficiently track and manage their expenses. It provides a secure and user-friendly interface for adding, viewing, and generating reports on expenses.
 
-## Installation and Setup
+## Features
+- User Authentication (Login, Registration, Password Reset)
+- Add, Edit, and Delete Expenses
+- Generate Expense Reports (Daily, Monthly, Yearly)
+- Detailed Expense Breakdown
+- Secure Dashboard
 
-Follow these steps to set up and run the project on your local server:
+## Technologies Used
+- PHP
+- MySQL (Database)
+- HTML, CSS, JavaScript
+- Bootstrap
 
-### 1. Download and Extract  
-- Download the ZIP file containing the project.  
-- Extract the file and locate the `dets` folder.
+## Installation
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   ```
+2. **Set up the database**:
+   - Import the provided SQL file from the `Database` folder into MySQL.
+3. **Configure the database connection**:
+   - Update database credentials in `includes/config.php`.
+4. **Run the project**:
+   - Host the project using XAMPP, WAMP, or any local PHP server.
+   - Open `http://localhost/PocketPal/` in a browser.
 
-### 2. Move the Project Folder  
-- Copy the `dets` folder and paste it into your server's root directory:  
-  - **XAMPP**: `xampp/htdocs/`  
-  - **WAMP**: `wamp/www/`  
-  - **LAMP**: `/var/www/html/`
+## Folder Structure
+```
+Pocket Pal/
+│── Database/          # Database scripts
+│── Main Code/         # Application source code
+│   ├── assets/        # Images and icons
+│   ├── css/           # Stylesheets
+│   ├── js/            # JavaScript files
+│   ├── includes/      # Configuration files
+│   ├── tables/        # Database table scripts
+│   ├── index.php      # Main entry point
+│   ├── dashboard.php  # User dashboard
+│   ├── manage-expense.php # Expense management
+│── README.md          # Project documentation
+```
 
-### 3. Set Up the Database  
-- Open [PHPMyAdmin](http://localhost/phpmyadmin) in your browser.  
-- Create a new database named **`detsdb`**.  
-- Import the `detsdb.sql` file from the `sql` folder inside the extracted project.
+## License
+This project is open-source and available for personal and educational use.
 
-### 4. Run the Application  
-- Open your browser and visit: [http://localhost/dets](http://localhost/dets)
+## Contributors
+- **[Your Name]** - Developer
 
-## User Credentials  
-You can either register a new user or use the following test credentials:  
-
-- **Username**: `testuser@gmail.com`  
-- **Password**: `Test @123`  
-
-## Features  
-- Add, edit, and delete daily expenses  
-- View expense reports  
-- User authentication and session management  
-
-## Technologies Used  
-- PHP  
-- MySQL  
-- HTML, CSS, JavaScript  
+## Contact
+For inquiries or support, contact **[Your Email]**.
 
 ---
+**Pocket Pal** - Your personal finance companion.
 
-For any issues or contributions, feel free to submit a pull request or create an issue in this repository.
