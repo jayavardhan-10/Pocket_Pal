@@ -1,6 +1,6 @@
-# Daily Expense Tracking System (DETS)
+# Pocket Pal
 
-This is a simple web-based Daily Expense Tracking System (DETS) built using PHP and MySQL. It allows users to track and manage their daily expenses efficiently.
+This is a simple web-based Daily Expense Tracking System built using PHP and MySQL. It allows users to track and manage their daily expenses efficiently.
 
 ## Installation and Setup
 
