@@ -48,10 +48,10 @@ Pocket Pal/
 This project is open-source and available for personal and educational use.
 
 ## Contributors
-- **[Your Name]** - Developer
+- **JAYA VARDHAN BOGUDA** - Developer
 
 ## Contact
-For inquiries or support, contact **[Your Email]**.
+For inquiries or support, contact **[jayavardhanboguda@gmail.com]**.
 
 ---
 **Pocket Pal** - Your personal finance companion.
